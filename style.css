@@ -3,6 +3,12 @@ html, body {
   width: 100%;
 }
 
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .guess-game{
   display: flex;
   flex-direction: column;
@@ -38,4 +44,5 @@ button {
 small {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
+  text-align: center;
 }

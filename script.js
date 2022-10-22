@@ -13,7 +13,7 @@ function guessNumber(s, e) {
 
 
   // check if the guess is correct
-  if (number == random) {
+  if (number === random) {
     window.alert("You guessed the correct number 🎉. Range Increased for guessing number.")
     rangeEnd++;
     number = parseInt(prompt(`Now guess a number from ${rangeStart} to ${rangeEnd}: `));
